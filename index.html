@@ -1,16 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faça  seu Pedido</title>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Burguer - A melhor Hamburgueria dev!</title>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="w-full h-[420px] bg-home">
+      <div class="w-full h-full flex flex-col justify-center items-center">
+        <img
+          src="./assets/img/hamb-1.png"
+          alt="Logo devBurguer"
+          class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+        />
+        <h1 class="text-4xl mt-4 mb-2 font-bold text-white">Dev Burguer</h1>
+        <span class="text-white font-medium"
+          >Rua Araças 10, Miravânia - MG</span
+        >
 
+        <div class="bg-green-600 px-4 py-1 rounded-lg mt-5">
+          <span class="text-white font-medium">Seg á Dom - 18:00 as 22:00</span>
+        </div>
+      </div>
+    </header>
+    <!-- FIM HEADER -->
 
-    
-    
-</body>
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+      Conheça nosso menu
+    </h2>
+
+    <!-- INICIO MENU -->
+
+    <div id="menu">
+      <main>
+        <!-- INICIO PRODUTO ITEM -->
+        <div>
+          <img
+            src="assets/img/hamb-1.png"
+            alt="Hamburguer Smash"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+          />
+          <div>
+            <p>Hamburguer Smash</p>
+            <p>Pão levinho de fermentação natural de Trigo, burguer 160g, queijo prato e maionese da casa.</p>
+
+            <div>
+                <p>R$ 18,90</p>
+                <button>ADD</button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+      </main>
+    </div>
+
+    <!-- FIM MENU -->
+  </body>
 </html>
